@@ -19,6 +19,7 @@ class Solution:
 
         return res
 
+
 list1 = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
 list2 = Solution().reverseList(list1)
 a = 5
