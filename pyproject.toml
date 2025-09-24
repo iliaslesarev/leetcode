@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "leetcode"
+version = "0.1.0"
+description = ""
+authors = ["Ilia Slesarev <ilia.slesarev@semrush.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+pyspark = "^3.5.6"
+aiohttp = "^3.12.13"
+requests = "^2.32.4"
+beautifulsoup4 = "^4.13.4"
+lxml = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,8 +1,5 @@
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.appName("TestApp").getOrCreate()
+spark = SparkSession.builder.appName("app").getOrCreate()
 
-df = spark.range(10)
-df.show()
-
-spark.stop()
+print(spark.version)
